@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8ADBBD14C6303B00EF0441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADBBC14C6303B00EF0441 /* UIKit.framework */; };
+		DA8ADBBF14C6303B00EF0441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADBBE14C6303B00EF0441 /* Foundation.framework */; };
+		DA8ADBC114C6303B00EF0441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8ADBC014C6303B00EF0441 /* CoreGraphics.framework */; };
+		DA8ADBC714C6303B00EF0441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA8ADBC514C6303B00EF0441 /* InfoPlist.strings */; };
+		DA8ADBC914C6303B00EF0441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADBC814C6303B00EF0441 /* main.m */; };
+		DA8ADBCD14C6303B00EF0441 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA8ADBB814C6303B00EF0441 /* TheCakeIsALie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCakeIsALie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8ADBBC14C6303B00EF0441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA8ADBBE14C6303B00EF0441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA8ADBC014C6303B00EF0441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA8ADBC414C6303B00EF0441 /* TheCakeIsALie-Info.plist */ = {isa = PBXFileReference; path = "TheCakeIsALie-Info.plist"; sourceTree = "<group>"; };
+		DA8ADBC614C6303B00EF0441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA8ADBC814C6303B00EF0441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA8ADBCA14C6303B00EF0441 /* TheCakeIsALie-Prefix.pch */ = {isa = PBXFileReference; path = "TheCakeIsALie-Prefix.pch"; sourceTree = "<group>"; };
+		DA8ADBCB14C6303B00EF0441 /* MMAppDelegate.h */ = {isa = PBXFileReference; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8ADBB514C6303B00EF0441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8ADBBD14C6303B00EF0441 /* UIKit.framework in Frameworks */,
+				DA8ADBBF14C6303B00EF0441 /* Foundation.framework in Frameworks */,
+				DA8ADBC114C6303B00EF0441 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA8ADBAD14C6303B00EF0441 = {
+			isa = PBXGroup;
+			children = (
+				DA8ADBC214C6303B00EF0441 /* TheCakeIsALie */,
+				DA8ADBBB14C6303B00EF0441 /* Frameworks */,
+				DA8ADBB914C6303B00EF0441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8ADBB914C6303B00EF0441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADBB814C6303B00EF0441 /* TheCakeIsALie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA8ADBBB14C6303B00EF0441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADBBC14C6303B00EF0441 /* UIKit.framework */,
+				DA8ADBBE14C6303B00EF0441 /* Foundation.framework */,
+				DA8ADBC014C6303B00EF0441 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8ADBC214C6303B00EF0441 /* TheCakeIsALie */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADBCB14C6303B00EF0441 /* MMAppDelegate.h */,
+				DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */,
+				DA8ADBC314C6303B00EF0441 /* Supporting Files */,
+			);
+			path = TheCakeIsALie;
+			sourceTree = "<group>";
+		};
+		DA8ADBC314C6303B00EF0441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADBC414C6303B00EF0441 /* TheCakeIsALie-Info.plist */,
+				DA8ADBC514C6303B00EF0441 /* InfoPlist.strings */,
+				DA8ADBC814C6303B00EF0441 /* main.m */,
+				DA8ADBCA14C6303B00EF0441 /* TheCakeIsALie-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8ADBB714C6303B00EF0441 /* TheCakeIsALie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8ADBD014C6303B00EF0441 /* Build configuration list for PBXNativeTarget "TheCakeIsALie" */;
+			buildPhases = (
+				DA8ADBB414C6303B00EF0441 /* Sources */,
+				DA8ADBB514C6303B00EF0441 /* Frameworks */,
+				DA8ADBB614C6303B00EF0441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheCakeIsALie;
+			productName = TheCakeIsALie;
+			productReference = DA8ADBB814C6303B00EF0441 /* TheCakeIsALie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8ADBAF14C6303B00EF0441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DA8ADBB214C6303B00EF0441 /* Build configuration list for PBXProject "TheCakeIsALie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA8ADBAD14C6303B00EF0441;
+			productRefGroup = DA8ADBB914C6303B00EF0441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8ADBB714C6303B00EF0441 /* TheCakeIsALie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA8ADBB614C6303B00EF0441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8ADBC714C6303B00EF0441 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8ADBB414C6303B00EF0441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8ADBC914C6303B00EF0441 /* main.m in Sources */,
+				DA8ADBCD14C6303B00EF0441 /* MMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA8ADBC514C6303B00EF0441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8ADBC614C6303B00EF0441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA8ADBCE14C6303B00EF0441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA8ADBCF14C6303B00EF0441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA8ADBD114C6303B00EF0441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheCakeIsALie/TheCakeIsALie-Prefix.pch";
+				INFOPLIST_FILE = "TheCakeIsALie/TheCakeIsALie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA8ADBD214C6303B00EF0441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TheCakeIsALie/TheCakeIsALie-Prefix.pch";
+				INFOPLIST_FILE = "TheCakeIsALie/TheCakeIsALie-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8ADBB214C6303B00EF0441 /* Build configuration list for PBXProject "TheCakeIsALie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8ADBCE14C6303B00EF0441 /* Debug */,
+				DA8ADBCF14C6303B00EF0441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8ADBD014C6303B00EF0441 /* Build configuration list for PBXNativeTarget "TheCakeIsALie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8ADBD114C6303B00EF0441 /* Debug */,
+				DA8ADBD214C6303B00EF0441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA8ADBAF14C6303B00EF0441 /* Project object */;
+}
