@@ -13,6 +13,7 @@
 		DA8ADBC714C6303B00EF0441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA8ADBC514C6303B00EF0441 /* InfoPlist.strings */; };
 		DA8ADBC914C6303B00EF0441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADBC814C6303B00EF0441 /* main.m */; };
 		DA8ADBCD14C6303B00EF0441 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */; };
+		DA8ADBD514C6315000EF0441 /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA8ADBD414C6315000EF0441 /* quotes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		DA8ADBBC14C6303B00EF0441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA8ADBBE14C6303B00EF0441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA8ADBC014C6303B00EF0441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DA8ADBC414C6303B00EF0441 /* TheCakeIsALie-Info.plist */ = {isa = PBXFileReference; path = "TheCakeIsALie-Info.plist"; sourceTree = "<group>"; };
+		DA8ADBC414C6303B00EF0441 /* TheCakeIsALie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheCakeIsALie-Info.plist"; sourceTree = "<group>"; };
 		DA8ADBC614C6303B00EF0441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA8ADBC814C6303B00EF0441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA8ADBCA14C6303B00EF0441 /* TheCakeIsALie-Prefix.pch */ = {isa = PBXFileReference; path = "TheCakeIsALie-Prefix.pch"; sourceTree = "<group>"; };
-		DA8ADBCB14C6303B00EF0441 /* MMAppDelegate.h */ = {isa = PBXFileReference; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		DA8ADBCA14C6303B00EF0441 /* TheCakeIsALie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheCakeIsALie-Prefix.pch"; sourceTree = "<group>"; };
+		DA8ADBCB14C6303B00EF0441 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
 		DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		DA8ADBD414C6315000EF0441 /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		DA8ADBC214C6303B00EF0441 /* TheCakeIsALie */ = {
 			isa = PBXGroup;
 			children = (
+				DA8ADBD314C630AF00EF0441 /* Resources */,
 				DA8ADBCB14C6303B00EF0441 /* MMAppDelegate.h */,
 				DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */,
 				DA8ADBC314C6303B00EF0441 /* Supporting Files */,
@@ -88,6 +91,14 @@
 				DA8ADBCA14C6303B00EF0441 /* TheCakeIsALie-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA8ADBD314C630AF00EF0441 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA8ADBD414C6315000EF0441 /* quotes.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8ADBC714C6303B00EF0441 /* InfoPlist.strings in Resources */,
+				DA8ADBD514C6315000EF0441 /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
