@@ -14,6 +14,7 @@
 		DA8ADBC914C6303B00EF0441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADBC814C6303B00EF0441 /* main.m */; };
 		DA8ADBCD14C6303B00EF0441 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */; };
 		DA8ADBD514C6315000EF0441 /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA8ADBD414C6315000EF0441 /* quotes.plist */; };
+		DAA7371A14CCBE7D0033D689 /* License in Resources */ = {isa = PBXBuildFile; fileRef = DAA7371914CCBE7D0033D689 /* License */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DA8ADBCB14C6303B00EF0441 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
 		DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
 		DA8ADBD414C6315000EF0441 /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
+		DAA7371914CCBE7D0033D689 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				DA8ADBCB14C6303B00EF0441 /* MMAppDelegate.h */,
 				DA8ADBCC14C6303B00EF0441 /* MMAppDelegate.m */,
 				DA8ADBC314C6303B00EF0441 /* Supporting Files */,
+				DAA7371914CCBE7D0033D689 /* License */,
 			);
 			path = TheCakeIsALie;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				DA8ADBC714C6303B00EF0441 /* InfoPlist.strings in Resources */,
 				DA8ADBD514C6315000EF0441 /* quotes.plist in Resources */,
+				DAA7371A14CCBE7D0033D689 /* License in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +272,7 @@
 				DA8ADBD214C6303B00EF0441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
